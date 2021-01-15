@@ -42,12 +42,14 @@ namespace learn
         }
 
 
-        static void FillArray4(int[] arr)
+        static void FillArray4(float[] arr)
         {
             // fill this array with 1,1,2,3,5,8,13,21,34,55...
-            for (int i = 0; i < arr.Length; i++)
+            arr[0] = 1;
+            arr[1] = 1;
+            for (int i = 2; i < arr.Length; i++)
             {
-                arr[i] = i - 1 + i - 2;
+                arr[i] = arr[i - 1] + arr[i - 2];
            
 
             }
@@ -69,20 +71,18 @@ namespace learn
 
         static void Main()
         {
-            int[] arr = new int[1000];
-
+            float[] arr = new float[100];
+            decimal b = 3;
+            decimal c = 2;
+            decimal d = b/c;
+            Console.WriteLine(d);
             // Printing stuff
             //Program.FillArray1(arr);
             //Program.ArrayPrint(arr);
 
             //Program.FillArray2(arr);
-            //Program.ArrayPrint(arr);
-
-            //Program.FillArray3(arr);
-            //Program.ArrayPrint(arr);
-
             Program.FillArray4(arr);
-            Program.ArrayPrint(arr);
+            //Program.ArrayPrint
 
         }      
     }
