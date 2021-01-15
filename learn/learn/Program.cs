@@ -59,6 +59,8 @@ namespace learn
             // Print the array,
             string a = "Hello World.";
             Console.Write($"{a}");
+            Console.Write($"{a}");
+            Console.Write($"{a}");
 
             Console.WriteLine("Hello World!");
          
@@ -70,8 +72,8 @@ namespace learn
             int[] arr = new int[1000];
 
             // Printing stuff
-            Program.FillArray1(arr);
-            Program.ArrayPrint(arr);
+            //Program.FillArray1(arr);
+            //Program.ArrayPrint(arr);
 
             //Program.FillArray2(arr);
             //Program.ArrayPrint(arr);
