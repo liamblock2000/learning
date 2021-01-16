@@ -12,7 +12,7 @@ namespace learn
             float[] arr = new float[20];
             ex1.Fill4(arr);
             ex1.Print(arr);
-
+            //
 
 
 
