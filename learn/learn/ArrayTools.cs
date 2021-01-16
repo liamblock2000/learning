@@ -63,10 +63,16 @@ namespace learn
             // use a look to create this output to the console
             // whith array [1,2,3,4,5,6,7] print out to the screen [1,2,3,4,5,6]
             
+            for(...)
+            {
+
+            }
             Console.Write("[");
             Console.Write($"{array[0]}");
             Console.Write($"{array[1]}");
             Console.WriteLine($"{array[2]}");
+            Console.WriteLine($"{array[3]}");
+
             // Print the array
         }
 
