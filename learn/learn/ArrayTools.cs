@@ -62,10 +62,14 @@ namespace learn
         {
             // use a loop to create this output to the console
             // whith array [1,2,3,4,5,6,7] print out to the screen [1,2,3,4,5,6,7]
-
+            Console.Write("[");
             for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(array[i]);
+
+                Console.Write(",");
+                Console.Write(array[i]);
+
+
 
                 //Console.WriteLine($"{array[1]}");
                 //Console.WriteLine($"{array[2]}");
@@ -73,8 +77,10 @@ namespace learn
 
                 //Console.WriteLine($"{array[3]}");           
                 //Console.Write($"{array[1]}");
-            }
 
+            }
+            Console.Write("]");
+          
         }
 
     }
