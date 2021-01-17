@@ -17,11 +17,13 @@ namespace learn
             Console.Write("[");
             for (int i = 0; i < 10; i++)
             {
+                Console.WriteLine("");
                 for (int j = 0; j < 10; j++)
                 {
-                   
-                    Console.Write(",");
+
+                    Console.Write(",\t");
                     Console.Write(matrix[i,j]);
+
                 }
             
             }
@@ -44,6 +46,36 @@ namespace learn
                 }
             }
             
+        }
+        public void FillArray3(int[,] arr)
+        {
+            
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = 0; j < arr.Length; j++)
+                
+                {
+                    arr[i,j] = i + j; 
+                }
+                    
+                
+                
+            }
+        }
+        public void FillArray4(int[,] arr)
+        {
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = 0; j < arr.Length; j++)
+
+                {
+                    arr[i, j] = i + j;
+                }
+
+
+
+            }
         }
 
 
